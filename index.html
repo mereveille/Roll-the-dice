@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>ROLL DICE GAME</title>
+</head>
+<body>
+
+<button class="newGame" onclick="reset()">New Game</button>
+
+<div class="player1"><h1>Player 1</h1>
+
+    <div class="global_p1">TOTAL</div>
+    <div class="round_p1">CURRENT</div>
+</div>
+
+<div class="player2"><h1>Player 2</h1>
+
+    <div class="global_p2">TOTAL</div>
+    <div class="round_p2">CURRENT</div>
+</div>
+
+
+<div class="container">
+    <div class="dice-wrapper" >
+    <img src="one-g37ddbed93_640.png" id="die-1">
+</div>
+
+<p id="current"></p>
+  
+<button onclick="roll()">ROLL THE DICE</button>
+<button class="hold">HOLD</button>
+    </div>
+        
+    
+
+</body>
+<script src="script.js"></script>
+</html>
